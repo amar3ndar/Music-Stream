@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musicly</string>
+    <string name="play_pause" />
+    <string name="skip_back" />
+    <string name="skip_next">\n\n\n</string>
+    <string name="skip_timer_back" />
+    <string name="skip_timer_forward" />
+    <string name="loop" />
+    <string name="shuffle" />
+</resources>

@@ -1,0 +1,8 @@
+<resources >
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MusicStream" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/blueDark</item>
+    </style>
+
+    <style name="Theme.MusicStream" parent="Base.Theme.MusicStream" />
+</resources>

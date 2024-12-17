@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <ImageButton
+        android:id="@+id/shuffle_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/ic_shuffle"
+        android:visibility="visible"
+        android:contentDescription="@string/shuffle" />
+
+    <ImageButton
+        android:id="@+id/btn_skip_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/ic_skip_back"
+        android:visibility="visible"
+        android:contentDescription="@string/skip_back" />
+
+    <ImageButton
+        android:id="@+id/skip_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:contentDescription="@string/skip_timer_back"
+        android:src="@drawable/ic_back"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/btn_play_pause"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/ic_play_arrow"
+        android:visibility="visible"
+        android:contentDescription="@string/play_pause" />
+
+    <ImageButton
+        android:id="@+id/skip_forward"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/ic_forward"
+        android:visibility="visible"
+        android:contentDescription="@string/skip_timer_forward" />
+
+    <ImageButton
+        android:id="@+id/btn_skip_next"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/ic_skip_next"
+        android:visibility="visible"
+        android:contentDescription="@string/skip_next" />
+
+    <ImageButton
+        android:id="@+id/loop_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/ic_loop"
+        android:visibility="visible"
+        android:contentDescription="@string/loop" />
+</LinearLayout>
