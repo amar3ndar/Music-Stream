@@ -6,6 +6,6 @@ data class SongModel(
     val subtitle: String,
     val url: String,
     val coverUrl: String,
-    ){
+){
     constructor():this("","","","","")
 }

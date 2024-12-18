@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.amar3ndar.musicstream"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.amar3ndar.musicstream"
@@ -43,8 +43,11 @@ android {
 
 dependencies {
 
-    // Import the Firebase BoM
+    //added media
+    implementation("androidx.media3:media3-exoplayer:1.5.0") // Replace 1.X.X with the desired version
+    implementation("androidx.media3:media3-ui:1.5.0") // Replace 1.X.X with the desired version
 
+    // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
 
     implementation("com.google.firebase:firebase-analytics")

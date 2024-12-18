@@ -16,7 +16,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 class SongListAdapter(private val songListId:List<String>): RecyclerView.Adapter<SongListAdapter.MyViewHolder>() {
 
     class MyViewHolder(private val binding:    SongListItemRecyclerRowBinding) : RecyclerView.ViewHolder(binding.root){
-     // bind data with view
+        // bind data with view
         fun bindData(songId:String){
             FirebaseFirestore.getInstance().collection("songs")
                 .document(songId).get()
